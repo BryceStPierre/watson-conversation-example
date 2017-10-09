@@ -1,0 +1,24 @@
+{
+  "name": "watson-conversation-example",
+  "version": "1.0.0",
+  "description": "An example application that makes use of IBM Watson's Conversation service using the WDC Node.js SDK.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryceStPierre/watson-conversation-example.git"
+  },
+  "keywords": [
+    "ibm",
+    "watson",
+    "conversation"
+  ],
+  "author": "Bryce St. Pierre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BryceStPierre/watson-conversation-example/issues"
+  },
+  "homepage": "https://github.com/BryceStPierre/watson-conversation-example#readme"
+}
