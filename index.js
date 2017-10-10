@@ -13,7 +13,7 @@ const conversation = new ConversationV1({
 // Make a request using the message API.
 conversation.message({
 	input: {
-		text: ' '
+		text: 'park list'
     }, 
     workspace_id: process.env.WORKSPACE_ID
 }, function(err, response) { 
