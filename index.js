@@ -1,14 +1,13 @@
 // Initialize dotenv.
-const dotenv = require('dotenv');
-dotenv.config();
+require('dotenv').config();
 
 const ConversationV1 = require('watson-developer-cloud/conversation/v1');
 
 // Create new instance of the Conversation service.
 const conversation = new ConversationV1({
-    username: process.env.USERNAME,
-	password: process.env.PASSWORD,
-	version_date: ConversationV1.VERSION_DATE_2016_09_20
+    username: process.env.USER,
+	password: process.env.PASS,
+	version_date: ConversationV1.VERSION_DATE_2017_05_26
 });
 
 // Make a request using the message API.

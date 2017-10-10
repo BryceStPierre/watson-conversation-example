@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/BryceStPierre/watson-conversation-example/issues"
   },
-  "homepage": "https://github.com/BryceStPierre/watson-conversation-example#readme"
+  "homepage": "https://github.com/BryceStPierre/watson-conversation-example#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "watson-developer-cloud": "^2.41.1"
+  }
 }
